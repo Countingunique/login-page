@@ -225,3 +225,20 @@ html {
   }
 
 /*--------bg animation ends here------*/
+
+/*--------bg animation ends here------*/
+
+#watermark {
+    /* STICK AT BOTTOM RIGHT */
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 999;
+   
+    /* TRANSPARENCY */
+    opacity: 0.5;
+   
+    /* COSMETICS */
+    text-align: right;
+    color: wheat;
+  }
