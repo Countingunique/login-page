@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #141225;
+    color: #fff;
+}
+.inFormBackground {
+    margin: 0rem 2rem;
+}
+.inFormBackground,
+.inLoginForm {
+    width: 25rem;
+    height: 30rem;
+    max-width: 320px;
+    position: relative;
+}
+.circle {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle:first-child {
+    left: -20%;
+    top: -12%;
+    background: linear-gradient(#ff0060, #c302b5);
+}
+.circle:nth-child(2) {
+    right: -22%;
+    bottom: -14%;
+    background: linear-gradient(164deg, #144e7cfc, #1877f2);
+}
+.inLoginForm form{
+    top:50%;
+    left: 50%;
+    width: 16rem;
+    height: 24rem;
+    max-width: 320px;
+    position: absolute;
+    padding: 50px 35px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.13);
+}
+form *{
+    border: none;
+    outline: none;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-family: "Poppons", sans-serif;
+}
+.title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+.inputGroup label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.inputGroup input{
+    width: 92%;
+    height: 50px;
+    display: block;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+::placeholder{  color: #e5e5e5;}
+
