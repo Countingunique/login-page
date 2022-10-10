@@ -1,4 +1,9 @@
 # login-page
+
+ll About Programming Contributors of Hacktoberfest 2022. This is a simple repo that helps new Open Source developers to start with contributions.
+
+![image](https://user-images.githubusercontent.com/1830380/193360152-0902f5c1-2565-45ae-9975-aa44a0c2c933.png)
+
 Login Page: 
 Login Page is very common among any type of secured applications and its widely used on the internet for authenticating the user before presenting the secured pages of the web applications. For example to use Facebook you have to get authenticated by the Facebook before they give you access to their platform. The user authentication is done through a special web page called Login Page. The Login page asks you to enter your credentials which is then validated by the application and after successful validation you are presented with the secured part of the application.
  login page will validate you to find if you are the authenticated user  or not. If not you won't be able and can't access it. 
